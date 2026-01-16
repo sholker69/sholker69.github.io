@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+  padding: 0;
+  padding-top: 200px;
+  font-size: 20px;
+}
+
+header{
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0,0,0,.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+header h2{
+  color:#fff;
+  padding-left: 20px;
+}
+h1, h2,h3, h4{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+nav {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(135deg,rgba(61, 61, 61, 0.50),rgba(74, 74, 74, 0.50));
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.barra-navegacion {
+    margin-right: 50px;
+  transition: transform 0.3s ease;
+}
+
+.barra-navegacion:hover{
+  transform: scale(1.1);
+}
+
+section{
+  width: 100%;
+}
+
+p{
+  padding-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: start;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.container-col{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.nicola{
+  width: 300px;
+  height: 300px;
+}
+.nicola img{
+  width: 100%;
+  height: 100%;
+}
+.cont-img{
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  border-radius: 25px;
+}
+img{
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+footer {
+  background: linear-gradient(135deg, #2d2d2d, #1a1a1a);
+  color: white;
+  padding: 40px 20px 20px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+}
